@@ -18,6 +18,14 @@ O projeto tem como finalidade transformar basicamente um objeto com caracteristi
 | Danfe.js | Esta classe tem como objetivo montar o documento pdf usando os metodos da classe documentosPDF.js |
 | NotaFiscalEletronica.js | Esta classe basicamente se utiliza da classe danfe.js para passar os dados que efetivamente montarão o pdf da danfe |
 
+## *INSTALANDO*
+
+```sh
+git clone https://github.com/danilosoftwares/NodeDanfePDF.git
+cd NodeDanfePDF
+npm install
+```
+
 ## License
 
 MIT
