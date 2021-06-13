@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Gerador de Visualização de Danfe</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
+    .col-example {
+      padding: 1rem;
+      border: 2px solid #fff;
+      text-align: center;
+    }  
+  </style>
+</head>
+<body>
+	<div class="container justify-content-center">                                       
+		<form id="form-demo" onsubmit="return false">
+			<div class="container my-4">
+				<div>
+					<div>
+						<div class="row">
+							<div class="col">
+								<div class="card">
+									<div class="card-body">
+										<h2>Gerador Danfe</h2>
+										<p>Clique no botão abaixo para gerar um exemplo de danfe em PDF</p>
+										<button type="submit" id="button-send" class="btn btn-primary">Visualizar Danfe</button>
+									</div>	
+								</div>
+							</div>
+						</div>										
+					</div>
+				</div>
+			</div>
+		</form>
+
+		<script src="http://code.jquery.com/jquery-3.0.0.min.js"></script>
+			
+		<script>
+			/*
+			* For demonstration porpuse, all JavaScript code was incorporated in
+			* the HTML file. But when developing your application, your JavaScript code
+			* should be in a separated file. Check this page for more information:
+			* https://developer.yahoo.com/performance/rules.html#external
+			*/
+
+		
+			$("#button-send").click(function(e){
+			e.preventDefault();
+			window.location.href = '/Api/NFe/GeraDanfe';
+			});
+		</script>
+	</div>
+
+</body>
+</html>
+

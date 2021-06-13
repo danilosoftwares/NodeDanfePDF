@@ -1,0 +1,16 @@
+{
+  "name": "servidor",
+  "version": "1.0.0",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pdfkit": "^0.11.0"
+  },
+  "scripts": {
+    "test": " node app.js",
+    "start": " node app.js"
+  },
+  "author": "danilo souza",
+  "license": "MIT",
+  "description": "O projeto tem como finalidade transformar basicamente um objeto com caracteristicas da nota fiscal eletronica em um documento danfe de pdf"
+}
